@@ -138,6 +138,25 @@ RAZORPAY_KEY_ID=your_razorpay_key_id
 RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 ```
 
+<img width="1917" height="835" alt="Screenshot 2026-11-18 182217" src="https://github.com/user-attachments/assets/d418027c-eea9-44eb-8515-1c936cfa835e" />
+
+<img width="1907" height="751" alt="Screenshot 2026-11-18 182228" src="https://github.com/user-attachments/assets/02874524-90d7-46e6-8d97-2e0cf5e314df" />
+
+<img width="1908" height="837" alt="Screenshot 2026-11-18 183912" src="https://github.com/user-attachments/assets/75ffd04e-1e15-4c48-b96e-45dc11d5fa48" />
+
+<img width="1896" height="835" alt="Screenshot 2026-11-18 184013" src="https://github.com/user-attachments/assets/a3e83a97-5d70-4836-9c9f-668138739aba" />
+
+<img width="1897" height="830" alt="Screenshot 2026-11-18 184223" src="https://github.com/user-attachments/assets/d338f4a8-084a-4ad4-9dae-65fefb235898" />
+
+<img width="1900" height="835" alt="Screenshot 2026-11-18 184414" src="https://github.com/user-attachments/assets/1363e3ac-1298-4fa4-a1bc-133f5b2e69a4" />
+
+
+## Admin 
+
+<img width="1906" height="821" alt="Screenshot 2026-11-18 184447" src="https://github.com/user-attachments/assets/4391ddbc-ed31-4c03-a01d-1fe8843ce818" />
+
+<img width="1908" height="832" alt="Screenshot 2026-11-18 184431" src="https://github.com/user-attachments/assets/58e97754-d1a7-417b-830e-df4b490a15df" />
+
 ## Author
 
 Your Name
