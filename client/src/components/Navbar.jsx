@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import logo from "../assets/logo2.png";
-import { Link, useNavigate } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import {FaHome,FaMoon,FaSun,FaSignInAlt,FaSignOutAlt,FaBoxOpen,FaInfoCircle} from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";
 import {MdCollections,MdOutlineShoppingCart,MdContacts} from "react-icons/md";
@@ -57,33 +57,39 @@ const Navbar = () => {
 
         <div className="absolute left-1/2 hidden -translate-x-1/2 md:flex ">
           <div className="flex items-center gap-6">
-            <Link
-              to="/"
-              className="flex items-center gap-2 px-3 py-2 text-lg text-black hover:underline dark:text-white">
-              <FaHome className="text-neutral-600" />
-              Home
-            </Link>
+            
+<NavLink
+  to="/"
+  className="flex items-center gap-2 px-3 py-2 text-lg"
+>
+  <FaHome className="text-neutral-600" />
+  Home
+</NavLink>
 
-            <Link
-              to="/collection"
-              className="flex items-center gap-2 px-3 py-2 text-lg text-black hover:underline dark:text-white">
-              <MdCollections className="text-neutral-600" />
-              Collections
-            </Link>
+<NavLink
+  to="/collection"
+  className="flex items-center gap-2 px-3 py-2 text-lg"
+>
+  <MdCollections className="text-neutral-600" />
+  Collections
+</NavLink>
 
-            <Link
-              to="/about"
-              className="flex items-center gap-2 px-3 py-2 text-lg text-black hover:underline dark:text-white">
-              <FaInfoCircle className="text-neutral-600" />
-              About
-            </Link>
+<NavLink
+  to="/about"
+  className="flex items-center gap-2 px-3 py-2 text-lg"
+>
+  <FaInfoCircle className="text-neutral-600" />
+  About
+</NavLink>
 
-            <Link
-              to="/contact"
-              className="flex items-center gap-2 px-3 py-2 text-lg text-black hover:underline dark:text-white">
-              <MdContacts className="text-neutral-600" />
-              Contact
-            </Link>
+<NavLink
+  to="/contact"
+  className="flex items-center gap-2 px-3 py-2 text-lg"
+>
+  <MdContacts className="text-neutral-600" />
+  Contact
+</NavLink>
+
           </div>
         </div>
 
@@ -208,40 +214,42 @@ const Navbar = () => {
         </div>
 
         <div className="fixed bottom-0 left-0 right-0 z-50 flex h-[70px] w-full items-center justify-around border-t-2 border-neutral-800 bg-neutral-100 px-5 md:hidden dark:bg-neutral-950">
-          <button
-            onClick={() => navigate("/")}
-            className="flex flex-col items-center justify-center gap-1 text-black dark:text-white"
-          >
-            <FaHome className="h-6 w-6 text-neutral-600 duration-300 hover:scale-95 dark:text-neutral-500" />
-            Home
-          </button>
+          
+<NavLink
+  to="/"
+  className="flex flex-col items-center justify-center gap-1 text-black dark:text-white"
+>
+  <FaHome className="h-6 w-6 text-neutral-600 duration-300 hover:scale-95 dark:text-neutral-500" />
+  Home
+</NavLink>
 
-          <button
-            onClick={() => navigate("/collection")}
-            className="flex flex-col items-center justify-center gap-1 text-black dark:text-white"
-          >
-            <MdCollections className="h-6 w-6 text-neutral-600 duration-300 hover:scale-95 dark:text-neutral-500" />
-            Collections
-          </button>
+<NavLink
+  to="/collection"
+  className="flex flex-col items-center justify-center gap-1 text-black dark:text-white"
+>
+  <MdCollections className="h-6 w-6 text-neutral-600 duration-300 hover:scale-95 dark:text-neutral-500" />
+  Collections
+</NavLink>
 
-          <button
-            onClick={() => navigate("/contact")}
-            className="flex flex-col items-center justify-center gap-1 text-black dark:text-white"
-          >
-            <MdContacts className="h-6 w-6 text-neutral-600 duration-300 hover:scale-95 dark:text-neutral-500" />
-            Contact
-          </button>
+<NavLink
+  to="/contact"
+  className="flex flex-col items-center justify-center gap-1 text-black dark:text-white"
+>
+  <MdContacts className="h-6 w-6 text-neutral-600 duration-300 hover:scale-95 dark:text-neutral-500" />
+  Contact
+</NavLink>
 
-          <button
-            onClick={() => navigate("/cart")}
-            className="relative flex flex-col items-center justify-center gap-1 text-black dark:text-white"
-          >
-            <MdOutlineShoppingCart className="h-6 w-6 text-neutral-600 duration-300 hover:scale-95 dark:text-neutral-500" />
-            <span className="absolute -right-0.5 -top-2 flex h-4 min-w-4 items-center justify-center rounded-full bg-red-600 px-1 text-[10px] text-white">
-              {getCartCount()}
-            </span>
-            Cart
-          </button>
+<NavLink
+  to="/cart"
+  className="relative flex flex-col items-center justify-center gap-1 text-black dark:text-white"
+>
+  <MdOutlineShoppingCart className="h-6 w-6 text-neutral-600 duration-300 hover:scale-95 dark:text-neutral-500" />
+  <span className="absolute -right-0.5 -top-2 flex h-4 min-w-4 items-center justify-center rounded-full bg-red-600 px-1 text-[10px] text-white">
+    {getCartCount()}
+  </span>
+  Cart
+</NavLink>
+
         </div>
       </div>
     </>

@@ -17,8 +17,8 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use(
-  cors({origin: ["http://localhost:5173",
-      "http://localhost:5174"],
+  cors({origin: ["https://mern-full-stack-e-commerce-project-five.vercel.app",
+      "https://mern-full-stack-e-commerce-project-chi.vercel.app"],
     credentials: true,
   })
 );
