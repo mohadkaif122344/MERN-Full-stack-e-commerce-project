@@ -148,6 +148,9 @@ RAZORPAY_KEY_SECRET=your_razorpay_key_secret
 
 <img width="1897" height="830" alt="Screenshot 2026-11-18 184223" src="https://github.com/user-attachments/assets/d338f4a8-084a-4ad4-9dae-65fefb235898" />
 
+<img width="1900" height="835" alt="Screenshot 2026-11-18 184414" src="https://github.com/user-attachments/assets/1363e3ac-1298-4fa4-a1bc-133f5b2e69a4" />
+
+
 ## Admin 
 
 <img width="1906" height="821" alt="Screenshot 2026-11-18 184447" src="https://github.com/user-attachments/assets/4391ddbc-ed31-4c03-a01d-1fe8843ce818" />
